@@ -25,21 +25,16 @@ This is a step-by-step app challenges that guides you through the entire process
 5. SwiftJSON
 6. Http request
 
-# Notes
-1. Some boilerplate code is already implemented for you 
-2. Storyboard VCs are already implemented for you
-3. Assets folder already has the pictures you need
 
-# How To Start
-1. Open the project and get familiar with it
-2. Write Pseudocode for your approach on a piece of paper or iPad (human-readable language)
-3. Start writing code (start small and divide and conquer)
-4. Start on simple tasks like UI-related code
-5. THen, proceed with the logic of the app
-6. Be mindful on doing one particular task at a time
+# Coding advice
 
-# Submission
--Once finished, submit it through Git & Github by creating a Git branch of yours and pushing it to this repository.
+1. If you can, use a piece of paper to sketch your pseudocode (human-readable language)
+2. Start writing code (start small and divide and conquer)
+3. Start on simple tasks like UI-related code
+4. THen, proceed with the logic of the app
+5. Be mindful on doing one particular task at a time
+6. Use Stackoverflow or complementary resources when stuck or in case of an error
+
 
 # Steps
 
