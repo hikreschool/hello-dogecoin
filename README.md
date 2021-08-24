@@ -43,21 +43,21 @@ This is a step-by-step app challenges that guides you through the entire process
 Step 1: Start your Xcode Project and name it _Hello-Dogecoin_.xcodeproj
 
 Step 2: Fill up the Storyboard with all the necessary UI elements (check App screenshot) 
-You need 3 UILabels and 1 UIButton. Start configuring your desired look for User Interface Design.
+You need _3 UILabels and 1 UIButton_. Start configuring your desired look for User Interface Design.
 
-Step 3: Organize the project files according to MVC pattern (Model, View, and Controller). Then, put the files in respective folders
+Step 3: Organize the project files according to MVC pattern (_Model, View, and Controller)_. Then, put the files in respective folders
 
-Step 4: Quit your Xcode project, go to Terminal, navigate to your project directory/folder, and initialize pod using pod init command in the terminal
+Step 4: Quit your Xcode project, go to Terminal, navigate to your project directory/folder, and initialize pod using _pod init_ command in the terminal
 
 <img width="893" alt="Screen Shot 2021-08-24 at 7 00 06 PM" src="https://user-images.githubusercontent.com/87120195/130605325-83d7d864-f40d-430f-b0fa-5b191bc7af38.png">
 
 
-Step 5: Open the Pod file and put these two pods respectively in the file, Alamofire and SwiftyJSON. 
+Step 5: Open the Pod file and put these two pods respectively in the file, _Alamofire and SwiftyJSON_. 
 
 <img width="283" alt="Screen Shot 2021-08-24 at 6 44 09 PM" src="https://user-images.githubusercontent.com/87120195/130603399-042482bb-14ce-4ad7-acbc-f25bef97c767.png">
-Note: Make sure you uncomment the use_frameworks and target platform :ios, '9.0'
+Note: Make sure you uncomment the _use_frameworks and target platform :ios, '9.0'_
 
-Step 6: Go back to terminal again and now do pod install. Wait until it's done. Then open your project using .xcworkspace
+Step 6: Go back to terminal again and now do _pod install_. Wait until it's done. Then open your project using .xcworkspace
 
 **Part 2**
 
