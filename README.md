@@ -51,6 +51,7 @@ Step 3: Organize the project files according to MVC pattern (Model, View, and Co
 Step 4: Quit your Xcode project, go to Terminal, navigate to your project directory/folder, and initialize pod using pod init command in the terminal
 
 Step 5: Open the Pod file and put these two pods respectively in the file, Alamofire and SwiftyJSON. 
+
 <img width="283" alt="Screen Shot 2021-08-24 at 6 44 09 PM" src="https://user-images.githubusercontent.com/87120195/130603399-042482bb-14ce-4ad7-acbc-f25bef97c767.png">
 Note: Make sure you uncomment the use_frameworks and target platform :ios, '9.0'
 
