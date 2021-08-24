@@ -121,6 +121,7 @@ Step 11: JSON Parsing - And this one too just under the block of code from Netwo
     }
     
 Step 12: Call or invoke getDogecoinData() method inside your viewDidLoad()
+
 Step 13: Call or invoke getDogecoinData() method inside your IBAction method for the button
 
 Final step: Run the app and make sure it displays real-time data of Dogecoin's price
