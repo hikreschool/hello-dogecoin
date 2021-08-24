@@ -6,6 +6,10 @@ Download the starter project files as .zip and extract to your desktop or your f
 
 **Important: Aside from the previous App Challenges, you will also be using what you've learned from hands-on activities**
 
+# What You Will Be Making - An app that display's the real-time price of Dogecoin
+<img width="378" alt="Screen Shot 2021-08-24 at 6 38 19 PM" src="https://user-images.githubusercontent.com/87120195/130604846-2f481d23-c918-4501-9159-7d7b40a8ef21.png">
+
+
 # What You Will Be Learning
 
 1. Networking - https://www.youtube.com/watch?v=Rqr3w8scm2E
@@ -84,7 +88,7 @@ Step 10: Networking - Insert this block of code inside your ViewController file
                     let dogecoinJSON : JSON = JSON(response.result.value!)
                     print(dogecoinJSON)
                     
-                    self.updateBitcoinData(json: dogecoinJSON)
+                    self.updateDogecoinData(json: dogecoinJSON)
                     
                 } else {
                     print("Error: \(String(describing: response.result.error))")
@@ -96,7 +100,7 @@ Step 10: Networking - Insert this block of code inside your ViewController file
     }
 
 Step 11: JSON Parsing - And this one too just under the block of code from Networking
-    func updateBitcoinData(json : JSON) {
+    func updateDogecoinData(json : JSON) {
         
         
         let jsonData = json["data"]["prices"]
@@ -122,11 +126,6 @@ Step 12: Call or invoke getDogecoinData() method inside your viewDidLoad()
 Step 13: Call or invoke getDogecoinData() method inside your IBAction method for the button
 
 Final step: Run the app and make sure it displays real-time data of Dogecoin's price
-
-# App
- 
-
-
 
 
 
