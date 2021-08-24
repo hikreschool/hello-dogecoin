@@ -75,6 +75,7 @@ Step 9: Start connecting the 3 IBOutlets and 1 IBAction on the Storyboard
 **Part 3**
 
 Step 10: Networking - Insert this block of code inside your ViewController file
+
   //MARK: - Networking
     func getBitcoinData(url: String) {
         
@@ -99,6 +100,7 @@ Step 10: Networking - Insert this block of code inside your ViewController file
     }
 
 Step 11: JSON Parsing - And this one too just under the block of code from Networking
+
     func updateDogecoinData(json : JSON) {
         
         
