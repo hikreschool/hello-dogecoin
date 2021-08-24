@@ -48,6 +48,7 @@ You need 3 UILabels and 1 UIButton. Start configuring your desired look for User
 Step 3: Organize the project files according to MVC pattern (Model, View, and Controller). Then, put the files in respective folders
 
 Step 4: Quit your Xcode project, go to Terminal, navigate to your project directory/folder, and initialize pod using pod init command in the terminal
+
 <img width="893" alt="Screen Shot 2021-08-24 at 7 00 06 PM" src="https://user-images.githubusercontent.com/87120195/130605325-83d7d864-f40d-430f-b0fa-5b191bc7af38.png">
 
 
