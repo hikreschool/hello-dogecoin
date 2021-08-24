@@ -65,7 +65,8 @@ Step 7: Import both libraries Alamofire and SwiftyJSON on the top of your ViewCo
 <img width="361" alt="Screen Shot 2021-08-24 at 6 45 49 PM" src="https://user-images.githubusercontent.com/87120195/130603726-e55837a9-f081-4bf7-ba94-7d9bc7880731.png">
 
 Step 8: Put this line of code inside your ViewController file
-let apiURL = "https://sochain.com//api/v2/get_price/DOGE/USD"
+
+_let apiURL = "https://sochain.com//api/v2/get_price/DOGE/USD"_
 
 Step 9: Start connecting the 3 IBOutlets and 1 IBAction on the Storyboard
 <img width="526" alt="Screen Shot 2021-08-24 at 6 46 01 PM" src="https://user-images.githubusercontent.com/87120195/130603838-efdd174d-171e-46d9-941a-1cf73bc6e797.png">
