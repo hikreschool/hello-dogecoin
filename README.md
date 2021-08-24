@@ -76,8 +76,8 @@ Step 9: Start connecting the 3 IBOutlets and 1 IBAction on the Storyboard
 
 Step 10: Networking - Insert this block of code inside your ViewController file
 
-  //MARK: - Networking
-    func getBitcoinData(url: String) {
+
+    func getDogecoinData(url: String) {
         
         Alamofire.request(url, method: .get)
             .responseJSON { response in
@@ -88,7 +88,7 @@ Step 10: Networking - Insert this block of code inside your ViewController file
                     let dogecoinJSON : JSON = JSON(response.result.value!)
                     print(dogecoinJSON)
                     
-                    self.updateDogecoinData(json: dogecoinJSON)
+                    self.updateBitcoinData(json: dogecoinJSON)
                     
                 } else {
                     print("Error: \(String(describing: response.result.error))")
