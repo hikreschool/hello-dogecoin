@@ -83,7 +83,7 @@ Step 10: Networking - Insert this block of code inside your ViewController file
             .responseJSON { response in
                 if response.result.isSuccess {
                     
-                    print("Sucess! Got the Bitcoin data")
+                    print("Sucess! Got the Dogecoin data")
                     
                     let dogecoinJSON : JSON = JSON(response.result.value!)
                     print(dogecoinJSON)
