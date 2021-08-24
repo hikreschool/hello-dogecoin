@@ -2,7 +2,7 @@
 # App Challenge Week 11 - Hello Dogecoin
 **Deadline: Friday**
 
-Download the starter project files as .zip and extract to your desktop or your folder of preference.Or you can go your Terminal or Commandline and copy paste: git clone.. PLACEHOLDER
+This is a step-by-step app challenges that guides you through the entire process of the App Challenge
 
 **Important: Aside from the previous App Challenges, you will also be using what you've learned from hands-on activities**
 
