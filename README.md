@@ -8,16 +8,18 @@ Download the starter project files as .zip and extract to your desktop or your f
 
 # What You Will Be Learning
 
-1. Networking
-2. JSON
-3. APIS
+1. Networking - https://www.youtube.com/watch?v=Rqr3w8scm2E
+2. JSON - https://www.youtube.com/watch?v=_TrPJQWD8qs
+3. APIS - https://www.youtube.com/watch?v=s7wmiS2mSXY
 
 
 # Important keywords
-
-
-# Complementary resources
-
+1. Networking
+2. JSON
+3. APIs
+4. Alamofire
+5. SwiftJSON
+6. Http request
 
 # Notes
 1. Some boilerplate code is already implemented for you 
