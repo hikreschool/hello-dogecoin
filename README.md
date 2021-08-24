@@ -22,7 +22,7 @@ This is a step-by-step challenge that guides you through the entire process of t
 2. JSON
 3. APIs
 4. Alamofire
-5. SwiftJSON
+5. SwiftyJSON
 6. Http request
 
 
