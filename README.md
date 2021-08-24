@@ -6,7 +6,7 @@ This is a step-by-step app challenges that guides you through the entire process
 
 **Important: Aside from the previous App Challenges, you will also be using what you've learned from hands-on activities**
 
-# What You Will Be Making - An app that display's the real-time price of Dogecoin
+# What You Will Be Making - An app that displays the real-time price of Dogecoin
 <img width="378" alt="Screen Shot 2021-08-24 at 6 38 19 PM" src="https://user-images.githubusercontent.com/87120195/130604846-2f481d23-c918-4501-9159-7d7b40a8ef21.png">
 
 
