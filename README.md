@@ -75,6 +75,7 @@ Step 9: Start connecting the 3 IBOutlets and 1 IBAction on the Storyboard
 **Part 3**
 
 Step 10: Networking - Insert this block of code inside your ViewController file
+Networking is when you communicate to other computers in the world wide web. In a simple sense, networking in Swift involves writing a block of code that fetches data from other web platform or services so you can utilize their existing datasets.
 
 
     func getDogecoinData(url: String) {
@@ -100,6 +101,7 @@ Step 10: Networking - Insert this block of code inside your ViewController file
     }
 
 Step 11: JSON Parsing - And this one too just under the block of code from Networking
+JSON parsing is the art of converting JSON string into usable types or objects. 
 
     func updateDogecoinData(json : JSON) {
         
