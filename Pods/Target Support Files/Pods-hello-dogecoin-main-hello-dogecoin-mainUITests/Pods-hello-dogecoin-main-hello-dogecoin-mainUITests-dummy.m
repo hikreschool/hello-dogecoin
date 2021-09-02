@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_hello_dogecoin_main_hello_dogecoin_mainUITests : NSObject
+@end
+@implementation PodsDummy_Pods_hello_dogecoin_main_hello_dogecoin_mainUITests
+@end

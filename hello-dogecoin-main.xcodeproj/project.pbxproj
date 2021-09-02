@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50C4E5C2BDE157CC8A8A3187 /* Pods_hello_dogecoin_main.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CD1B17780F2F75703C42D9 /* Pods_hello_dogecoin_main.framework */; };
+		7542B7EF26D66DB200D3606C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542B7EE26D66DB200D3606C /* AppDelegate.swift */; };
+		7542B7F126D66DB200D3606C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542B7F026D66DB200D3606C /* SceneDelegate.swift */; };
+		7542B7F326D66DB200D3606C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542B7F226D66DB200D3606C /* ViewController.swift */; };
+		7542B7F626D66DB200D3606C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542B7F426D66DB200D3606C /* Main.storyboard */; };
+		7542B7F826D66DB900D3606C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7542B7F726D66DB900D3606C /* Assets.xcassets */; };
+		7542B7FB26D66DB900D3606C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7542B7F926D66DB900D3606C /* LaunchScreen.storyboard */; };
+		7542B80626D66DB900D3606C /* hello_dogecoin_mainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542B80526D66DB900D3606C /* hello_dogecoin_mainTests.swift */; };
+		7542B81126D66DB900D3606C /* hello_dogecoin_mainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542B81026D66DB900D3606C /* hello_dogecoin_mainUITests.swift */; };
+		B78B8D548F57917CF59C674F /* Pods_hello_dogecoin_mainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1E22DD521C76ED534C4B50 /* Pods_hello_dogecoin_mainTests.framework */; };
+		DA7CE9E80343F895EF36AA38 /* Pods_hello_dogecoin_main_hello_dogecoin_mainUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AB5AB5CCDC443F15BC9913 /* Pods_hello_dogecoin_main_hello_dogecoin_mainUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7542B80226D66DB900D3606C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7542B7E326D66DB100D3606C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7542B7EA26D66DB100D3606C;
+			remoteInfo = "hello-dogecoin-main";
+		};
+		7542B80D26D66DB900D3606C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7542B7E326D66DB100D3606C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7542B7EA26D66DB100D3606C;
+			remoteInfo = "hello-dogecoin-main";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53AB5AB5CCDC443F15BC9913 /* Pods_hello_dogecoin_main_hello_dogecoin_mainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hello_dogecoin_main_hello_dogecoin_mainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7542B7EB26D66DB200D3606C /* hello-dogecoin-main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-dogecoin-main.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7542B7EE26D66DB200D3606C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7542B7F026D66DB200D3606C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7542B7F226D66DB200D3606C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7542B7F526D66DB200D3606C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7542B7F726D66DB900D3606C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7542B7FA26D66DB900D3606C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7542B7FC26D66DB900D3606C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7542B80126D66DB900D3606C /* hello-dogecoin-mainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-dogecoin-mainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7542B80526D66DB900D3606C /* hello_dogecoin_mainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_dogecoin_mainTests.swift; sourceTree = "<group>"; };
+		7542B80726D66DB900D3606C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7542B80C26D66DB900D3606C /* hello-dogecoin-mainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello-dogecoin-mainUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7542B81026D66DB900D3606C /* hello_dogecoin_mainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_dogecoin_mainUITests.swift; sourceTree = "<group>"; };
+		7542B81226D66DB900D3606C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968C460385B36E63959705A5 /* Pods-hello-dogecoin-mainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-dogecoin-mainTests.release.xcconfig"; path = "Target Support Files/Pods-hello-dogecoin-mainTests/Pods-hello-dogecoin-mainTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0711C00B2B15369485173A2 /* Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.debug.xcconfig"; path = "Target Support Files/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6151F618F5FCB77B7695906 /* Pods-hello-dogecoin-main.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-dogecoin-main.debug.xcconfig"; path = "Target Support Files/Pods-hello-dogecoin-main/Pods-hello-dogecoin-main.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1E22DD521C76ED534C4B50 /* Pods_hello_dogecoin_mainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hello_dogecoin_mainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C346EF042CCDA83E53D92D2A /* Pods-hello-dogecoin-main.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-dogecoin-main.release.xcconfig"; path = "Target Support Files/Pods-hello-dogecoin-main/Pods-hello-dogecoin-main.release.xcconfig"; sourceTree = "<group>"; };
+		C7CD1B17780F2F75703C42D9 /* Pods_hello_dogecoin_main.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hello_dogecoin_main.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9000590AE4E2C705C3A34C /* Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.release.xcconfig"; path = "Target Support Files/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F146D02DEB40D9F4BB815F28 /* Pods-hello-dogecoin-mainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-dogecoin-mainTests.debug.xcconfig"; path = "Target Support Files/Pods-hello-dogecoin-mainTests/Pods-hello-dogecoin-mainTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7542B7E826D66DB100D3606C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C4E5C2BDE157CC8A8A3187 /* Pods_hello_dogecoin_main.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7542B7FE26D66DB900D3606C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78B8D548F57917CF59C674F /* Pods_hello_dogecoin_mainTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7542B80926D66DB900D3606C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7CE9E80343F895EF36AA38 /* Pods_hello_dogecoin_main_hello_dogecoin_mainUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F616999B4CE69B49CBB7679 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6151F618F5FCB77B7695906 /* Pods-hello-dogecoin-main.debug.xcconfig */,
+				C346EF042CCDA83E53D92D2A /* Pods-hello-dogecoin-main.release.xcconfig */,
+				B0711C00B2B15369485173A2 /* Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.debug.xcconfig */,
+				CD9000590AE4E2C705C3A34C /* Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.release.xcconfig */,
+				F146D02DEB40D9F4BB815F28 /* Pods-hello-dogecoin-mainTests.debug.xcconfig */,
+				968C460385B36E63959705A5 /* Pods-hello-dogecoin-mainTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7542B7E226D66DB100D3606C = {
+			isa = PBXGroup;
+			children = (
+				7542B7ED26D66DB200D3606C /* hello-dogecoin-main */,
+				7542B80426D66DB900D3606C /* hello-dogecoin-mainTests */,
+				7542B80F26D66DB900D3606C /* hello-dogecoin-mainUITests */,
+				7542B7EC26D66DB200D3606C /* Products */,
+				5F616999B4CE69B49CBB7679 /* Pods */,
+				F08490FB9369413465D8F524 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7542B7EC26D66DB200D3606C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7542B7EB26D66DB200D3606C /* hello-dogecoin-main.app */,
+				7542B80126D66DB900D3606C /* hello-dogecoin-mainTests.xctest */,
+				7542B80C26D66DB900D3606C /* hello-dogecoin-mainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7542B7ED26D66DB200D3606C /* hello-dogecoin-main */ = {
+			isa = PBXGroup;
+			children = (
+				7542B81F26D66FA300D3606C /* Controllers */,
+				7542B81E26D66F7B00D3606C /* Models */,
+				7542B82026D66FAF00D3606C /* Supporting */,
+			);
+			path = "hello-dogecoin-main";
+			sourceTree = "<group>";
+		};
+		7542B80426D66DB900D3606C /* hello-dogecoin-mainTests */ = {
+			isa = PBXGroup;
+			children = (
+				7542B80526D66DB900D3606C /* hello_dogecoin_mainTests.swift */,
+				7542B80726D66DB900D3606C /* Info.plist */,
+			);
+			path = "hello-dogecoin-mainTests";
+			sourceTree = "<group>";
+		};
+		7542B80F26D66DB900D3606C /* hello-dogecoin-mainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7542B81026D66DB900D3606C /* hello_dogecoin_mainUITests.swift */,
+				7542B81226D66DB900D3606C /* Info.plist */,
+			);
+			path = "hello-dogecoin-mainUITests";
+			sourceTree = "<group>";
+		};
+		7542B81E26D66F7B00D3606C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7542B7F426D66DB200D3606C /* Main.storyboard */,
+				7542B7F926D66DB900D3606C /* LaunchScreen.storyboard */,
+				7542B7F726D66DB900D3606C /* Assets.xcassets */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7542B81F26D66FA300D3606C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7542B7F226D66DB200D3606C /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7542B82026D66FAF00D3606C /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				7542B7EE26D66DB200D3606C /* AppDelegate.swift */,
+				7542B7F026D66DB200D3606C /* SceneDelegate.swift */,
+				7542B7FC26D66DB900D3606C /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		F08490FB9369413465D8F524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD1B17780F2F75703C42D9 /* Pods_hello_dogecoin_main.framework */,
+				53AB5AB5CCDC443F15BC9913 /* Pods_hello_dogecoin_main_hello_dogecoin_mainUITests.framework */,
+				BE1E22DD521C76ED534C4B50 /* Pods_hello_dogecoin_mainTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7542B7EA26D66DB100D3606C /* hello-dogecoin-main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7542B81526D66DBA00D3606C /* Build configuration list for PBXNativeTarget "hello-dogecoin-main" */;
+			buildPhases = (
+				72BE1767D379E5D9688F4B41 /* [CP] Check Pods Manifest.lock */,
+				7542B7E726D66DB100D3606C /* Sources */,
+				7542B7E826D66DB100D3606C /* Frameworks */,
+				7542B7E926D66DB100D3606C /* Resources */,
+				E9D12B56E286051D2BB5E65B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-dogecoin-main";
+			productName = "hello-dogecoin-main";
+			productReference = 7542B7EB26D66DB200D3606C /* hello-dogecoin-main.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7542B80026D66DB900D3606C /* hello-dogecoin-mainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7542B81826D66DBA00D3606C /* Build configuration list for PBXNativeTarget "hello-dogecoin-mainTests" */;
+			buildPhases = (
+				DB5EAE4A0BAEAA0EA627CA6E /* [CP] Check Pods Manifest.lock */,
+				7542B7FD26D66DB900D3606C /* Sources */,
+				7542B7FE26D66DB900D3606C /* Frameworks */,
+				7542B7FF26D66DB900D3606C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7542B80326D66DB900D3606C /* PBXTargetDependency */,
+			);
+			name = "hello-dogecoin-mainTests";
+			productName = "hello-dogecoin-mainTests";
+			productReference = 7542B80126D66DB900D3606C /* hello-dogecoin-mainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7542B80B26D66DB900D3606C /* hello-dogecoin-mainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7542B81B26D66DBA00D3606C /* Build configuration list for PBXNativeTarget "hello-dogecoin-mainUITests" */;
+			buildPhases = (
+				38041A0E932EB06B4A8604AD /* [CP] Check Pods Manifest.lock */,
+				7542B80826D66DB900D3606C /* Sources */,
+				7542B80926D66DB900D3606C /* Frameworks */,
+				7542B80A26D66DB900D3606C /* Resources */,
+				52A54A452588C54F935364A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7542B80E26D66DB900D3606C /* PBXTargetDependency */,
+			);
+			name = "hello-dogecoin-mainUITests";
+			productName = "hello-dogecoin-mainUITests";
+			productReference = 7542B80C26D66DB900D3606C /* hello-dogecoin-mainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7542B7E326D66DB100D3606C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7542B7EA26D66DB100D3606C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7542B80026D66DB900D3606C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7542B7EA26D66DB100D3606C;
+					};
+					7542B80B26D66DB900D3606C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7542B7EA26D66DB100D3606C;
+					};
+				};
+			};
+			buildConfigurationList = 7542B7E626D66DB100D3606C /* Build configuration list for PBXProject "hello-dogecoin-main" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7542B7E226D66DB100D3606C;
+			productRefGroup = 7542B7EC26D66DB200D3606C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7542B7EA26D66DB100D3606C /* hello-dogecoin-main */,
+				7542B80026D66DB900D3606C /* hello-dogecoin-mainTests */,
+				7542B80B26D66DB900D3606C /* hello-dogecoin-mainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7542B7E926D66DB100D3606C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7542B7FB26D66DB900D3606C /* LaunchScreen.storyboard in Resources */,
+				7542B7F826D66DB900D3606C /* Assets.xcassets in Resources */,
+				7542B7F626D66DB200D3606C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7542B7FF26D66DB900D3606C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7542B80A26D66DB900D3606C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38041A0E932EB06B4A8604AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A54A452588C54F935364A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests/Pods-hello-dogecoin-main-hello-dogecoin-mainUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72BE1767D379E5D9688F4B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hello-dogecoin-main-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5EAE4A0BAEAA0EA627CA6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hello-dogecoin-mainTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D12B56E286051D2BB5E65B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hello-dogecoin-main/Pods-hello-dogecoin-main-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hello-dogecoin-main/Pods-hello-dogecoin-main-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hello-dogecoin-main/Pods-hello-dogecoin-main-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7542B7E726D66DB100D3606C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7542B7F326D66DB200D3606C /* ViewController.swift in Sources */,
+				7542B7EF26D66DB200D3606C /* AppDelegate.swift in Sources */,
+				7542B7F126D66DB200D3606C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7542B7FD26D66DB900D3606C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7542B80626D66DB900D3606C /* hello_dogecoin_mainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7542B80826D66DB900D3606C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7542B81126D66DB900D3606C /* hello_dogecoin_mainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7542B80326D66DB900D3606C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7542B7EA26D66DB100D3606C /* hello-dogecoin-main */;
+			targetProxy = 7542B80226D66DB900D3606C /* PBXContainerItemProxy */;
+		};
+		7542B80E26D66DB900D3606C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7542B7EA26D66DB100D3606C /* hello-dogecoin-main */;
+			targetProxy = 7542B80D26D66DB900D3606C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7542B7F426D66DB200D3606C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7542B7F526D66DB200D3606C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7542B7F926D66DB900D3606C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7542B7FA26D66DB900D3606C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7542B81326D66DBA00D3606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7542B81426D66DBA00D3606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7542B81626D66DBA00D3606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6151F618F5FCB77B7695906 /* Pods-hello-dogecoin-main.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BU7Y8S959;
+				INFOPLIST_FILE = "$(SRCROOT)/hello-dogecoin-main/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.hello-dogecoin-main";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7542B81726D66DBA00D3606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C346EF042CCDA83E53D92D2A /* Pods-hello-dogecoin-main.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BU7Y8S959;
+				INFOPLIST_FILE = "$(SRCROOT)/hello-dogecoin-main/Supporting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.hello-dogecoin-main";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7542B81926D66DBA00D3606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F146D02DEB40D9F4BB815F28 /* Pods-hello-dogecoin-mainTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BU7Y8S959;
+				INFOPLIST_FILE = "hello-dogecoin-mainTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.hello-dogecoin-mainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-dogecoin-main.app/hello-dogecoin-main";
+			};
+			name = Debug;
+		};
+		7542B81A26D66DBA00D3606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968C460385B36E63959705A5 /* Pods-hello-dogecoin-mainTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BU7Y8S959;
+				INFOPLIST_FILE = "hello-dogecoin-mainTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.hello-dogecoin-mainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello-dogecoin-main.app/hello-dogecoin-main";
+			};
+			name = Release;
+		};
+		7542B81C26D66DBA00D3606C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0711C00B2B15369485173A2 /* Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BU7Y8S959;
+				INFOPLIST_FILE = "hello-dogecoin-mainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.hello-dogecoin-mainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hello-dogecoin-main";
+			};
+			name = Debug;
+		};
+		7542B81D26D66DBA00D3606C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9000590AE4E2C705C3A34C /* Pods-hello-dogecoin-main-hello-dogecoin-mainUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BU7Y8S959;
+				INFOPLIST_FILE = "hello-dogecoin-mainUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.hello-dogecoin-mainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hello-dogecoin-main";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7542B7E626D66DB100D3606C /* Build configuration list for PBXProject "hello-dogecoin-main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7542B81326D66DBA00D3606C /* Debug */,
+				7542B81426D66DBA00D3606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7542B81526D66DBA00D3606C /* Build configuration list for PBXNativeTarget "hello-dogecoin-main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7542B81626D66DBA00D3606C /* Debug */,
+				7542B81726D66DBA00D3606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7542B81826D66DBA00D3606C /* Build configuration list for PBXNativeTarget "hello-dogecoin-mainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7542B81926D66DBA00D3606C /* Debug */,
+				7542B81A26D66DBA00D3606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7542B81B26D66DBA00D3606C /* Build configuration list for PBXNativeTarget "hello-dogecoin-mainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7542B81C26D66DBA00D3606C /* Debug */,
+				7542B81D26D66DBA00D3606C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7542B7E326D66DB100D3606C /* Project object */;
+}
